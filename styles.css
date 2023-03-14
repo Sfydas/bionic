@@ -105,11 +105,35 @@ a:hover {
   }
 }
 
+main {
+  display: flexbox;
+}
+
+.manufacturing {
+  margin: auto;
+  padding: 0px;
+}
+
+.ideas {
+  margin: auto;
+  padding: 0px;
+}
+
+.printing {
+  margin: auto;
+  padding: 0px;
+}
+
+.design {
+  margin: 0px;
+  padding: 0px;
+}
+
 footer {
   display: flexbox;
   flex-direction: row;
   align-items: center;
-  background-color: #000000;
+  background-color: #6102dc;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
