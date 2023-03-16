@@ -1,19 +1,25 @@
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
+.container {
+  display: grid;
+  height: 100vh;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr 0.8fr;
+
+  grid-template-areas:
+    "nav nav nav nav"
+    "manufacturing manufacturing manufacturing manufacturing"
+    "ideas ideas ideas ideas"
+    "printing printing printing printing"
+    "design design design design"
+    "footer footer footer footer";
 }
 
 nav {
   background: black;
   height: 80px;
   width: 100%;
+  grid-area: nav;
+  
 }
 
 label.logo {
@@ -105,34 +111,31 @@ a:hover {
   }
 }
 
-main {
-  display: flexbox;
-}
-
 .manufacturing {
-  background-color: #fff;
+  background-color: red;
+  grid-area: manufacturing;
 }
 
 .ideas {
   background-color: #00a3e8;
-  margin: auto;
-  padding: 0px;
+  grid-area: ideas;
 }
 
 .printing {
   background-color: #01c9ad;
-  
+  grid-area: printing;
 }
 
 .design {
-  background-color: #6102dc;
-  margin: 0px;
-  padding: 0px;
+  background-color: pink;
+  grid-area: design;
 }
-
+/* ----------------------------------------------------- */
 footer {
+  grid-area: footer;
   text-align: center;
   background-color: #6102dc;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+
 }
