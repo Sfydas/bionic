@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  height: 100vh;
+  height: 2500px;
 
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr 0.8fr;
@@ -114,6 +114,7 @@ a:hover {
 .manufacturing {
   background-color: red;
   grid-area: manufacturing;
+  background-image: url(/images/pag1/1.jpg);
 }
 
 .ideas {
