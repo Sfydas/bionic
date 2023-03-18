@@ -120,6 +120,7 @@ a:hover {
 .ideas {
   background-color: #00a3e8;
   grid-area: ideas;
+  background-image: url(/images/pag1/2.jpg);
 }
 
 .printing {
