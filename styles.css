@@ -126,6 +126,7 @@ a:hover {
 .printing {
   background-color: #01c9ad;
   grid-area: printing;
+  background-image: url(/images/pag1/2.jpg);
 }
 
 .design {
